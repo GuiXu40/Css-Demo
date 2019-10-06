@@ -1,0 +1,76 @@
+img {
+    width: 100vw;
+}
+a {
+    color: #000;
+}
+.nav-bar {
+    padding: 10px 0 10px 15px;
+}
+.cooperate {
+    color: #29b078;
+}
+.item {
+    padding: 10px 10px 10px 10px;
+}
+ul li {
+    list-style: circle;
+    color: #f1a750;
+    font-size: 2em;
+    padding: 10px 0px 10px 0px; 
+}
+.company {
+    text-align: center;
+}
+ul li a {
+    color: #29b078;
+}
+.company div {
+    text-align: left;
+    display: inline-block;
+}
+.text {
+    border: 1px solid #aaa;
+    text-align: center;
+}
+.text h4 {
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.text1 {
+    font-size: 16px;
+}
+.title {
+    padding: 30px;
+    height: 200px;
+}
+.title img {
+    width: 100px;
+}
+.tudou {
+    height: 100%;
+    float: left;
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+.wenben {
+    height: 100%;
+    float: left;
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+.article p{
+    padding: 5px 20px 5px 20px;
+}
+@media screen and (max-width: 1000px){
+    .tudou {
+        width: 100%;
+        height: auto;
+    }
+    .wenben {
+        width: 100%;
+    }
+}

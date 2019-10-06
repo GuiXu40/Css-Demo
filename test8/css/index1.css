@@ -1,0 +1,200 @@
+@media screen and (max-width: 560px){
+    #carousel-example-generic>a {
+        display: none;
+    }
+}
+main {
+    margin-top: 30px;
+}
+main>div {
+    width: 100%;
+}
+main .icon {
+    margin: 0 auto 20px auto;
+}
+.rocket .icon {
+    margin-bottom: 0px;
+    width: 43px;
+    height: 62px;
+    transform: scale(.85);
+    background: url(../img/8-1/bg8-1.png) -90px -10px;
+}
+.book .icon {
+    margin-bottom: 14px;
+    width: 60px;
+    height: 48px;
+    background: url(../img/8-1/bg8-1.png) -10px -10px;
+}
+.shape .icon {
+    margin-bottom: 8px;
+    width: 52px;
+    height: 55px;
+    background: url(../img/8-1/bg8-1.png) -10px -78px;
+}
+main .container {
+    margin-top: 80px;
+}
+main .title {
+    padding: 0px;
+    font-size: 0.8em;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+main .text {
+    text-align: center;
+    color: #aaa;
+    border: 0;
+}
+main .number {
+    border-left: 1px dashed #aaa;
+    padding: 20px;
+    padding-left: 40px; 
+    font-size: 0.8em;
+    font-weight: 500;
+}
+main .user {
+    width: 13px;
+    height: 13px;
+    background: url(../img/8-1/bg8-1.png) -10px -153px;
+}
+main .box div{
+    display: inline-block;
+}
+main .online>div {
+    margin-bottom: 5px;
+}
+main .student>div {
+    margin-bottom: 5px;
+}
+.study .item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.study>div:nth-child(1) {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.study .num {
+    text-align: center;
+    width: 65px;
+    height: 65px;
+    line-height: 65px;
+    border-radius: 50%;
+    box-shadow: 0 0 2px 2px #ddd;
+    color: #29b078;
+}
+.study .text {
+    font-size: 1em;
+    color: #000;
+    padding-left: 20px;
+    width: 140px;
+    align-self: center;
+    text-align: left;
+}
+.study .icon {
+    margin-left: 5px;
+    margin-right: 5px;
+    align-self: center;
+    width: 28px;
+    height: 26px;
+    background: url(../img/8-1/bg8-1.png) -90px -92px;
+}
+#students>div:nth-child(1) {
+    font-weight: 700;
+}
+#students .box {
+    padding: 10px 20px 10px 20px;
+}
+#students .item {
+    border: 1px solid #aaa;
+}
+#students .portrait {
+    text-align: center;
+    width: 100%;
+}
+#students .name {
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+}
+#students .box div {
+    margin-top: 20px;
+}
+#students .text {
+    text-indent: 30px;
+    padding: 0 20px 20px 20px;
+}
+#cooperate {
+    padding: 0;
+    margin: 0px;
+}
+#cooperate>div:nth-child(1) {
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+#cooperate .item {
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    width: 20%;
+    float: left;
+}
+#links a{
+    color: #aaa;
+}
+#links .item {
+    float: left;
+    width: 20%;
+}
+#links ul {
+    padding: 0;
+    padding-left: 15px; 
+}
+#links ul li{
+    list-style: disc;
+    color: #aaa;
+    font-size: 0.7em;
+}
+@media screen and (max-width: 430px){
+    main .container .row>div {
+        width: 100%;
+    }
+    main .number {
+        border: 0px;
+    }
+}
+@media screen and (max-width: 992px){
+    main .number {
+        text-align: center;
+    }
+    .study .item {
+        display: flex;
+        justify-content: space-around;
+    }
+    .study .text {
+        padding: 0px;
+    }
+    #cooperate .item{
+        width: 50%;
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 700px){
+    main .container {
+        margin-top: 30px;
+    }
+    .study .item {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    #cooperate .item{
+        width: 100%;
+        margin-top: 30px;
+    }
+    #links ul li{
+        list-style: none;
+    }
+}
+

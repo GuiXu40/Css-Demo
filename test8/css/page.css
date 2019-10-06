@@ -1,0 +1,172 @@
+/* body {
+    Font-size=62.5%;
+} */
+header {
+    width: 100%;
+}
+a {
+    text-decoration:none; 
+    color: #fff;
+}
+li {
+    list-style: none;
+}
+.head1 {
+    height: 40px;
+    
+}
+.phone {
+    line-height: 40px;
+    float: left;
+    color: #29b078;
+    font-weight: 600;
+    font-size: 12px;
+}
+.login {
+    height: 40px;
+    width: 88px;
+    float: right;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.login div {
+    float: left;
+}
+.weibo {
+    width: 27px;
+    height: 26px;
+    background: url(../img/bg.png) -57px -122px;
+}
+.qq {
+    width: 27px;
+    height: 26px;
+    background: url(../img/bg.png) -10px -122px;
+}
+.weixin {
+    width: 27px;
+    height: 26px;
+    background: url(../img/bg.png) -104px -122px;
+}
+header>div:nth-child(2) {
+    width: 100%;
+    background-color: #29b078;
+}
+.head2 {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    width: 107px;
+    height: 49px;
+    background: url(../img/bg.png) -122px -10px;
+    
+}
+.navs {
+    box-sizing: border-box;
+}
+.navs li{
+    font-size: 22px;
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 22px;
+    padding: 40px 10px 35px 10px;
+
+}
+.navs li a {
+    text-decoration:none; 
+    color: #fff;
+}
+.navs li:active {
+    padding-bottom: 33px;
+    border-bottom: 2px solid #FFF;
+    cursor: pointer;
+}
+.menu {
+    display: none;
+}
+@media screen and (max-width: 700px){
+    .head2 {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .menu {
+        display: block;
+        width: 40px;
+        height: 42px;
+        position: absolute;
+        top: 20px;
+        right: 3px;
+        background: url(../img/menu.png) no-repeat;
+    }
+    .logo {
+        width: 100%;
+        background-repeat: no-repeat;
+        margin-top: 20px; 
+        margin-bottom: 18px;
+    }
+    .navs {
+        /* 在ul中会有默认的边距所以我们要先去掉这个边距 */
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        display: none;
+    }
+    /* hover:只有后代元素和兄弟元素（紧接在元素后的兄弟元素）才有效果 */
+    .menu:active+.navs{
+       display: inline;
+    }
+    .navs > li {
+        padding: 10px 30px 10px 30px;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        background-color: #29b078;
+    }
+    .navs li :hover {
+        padding-bottom: 8px;
+        border-bottom: 2px solid #FFF;
+        cursor: pointer;
+    }
+}
+footer {
+    background-color: #29b078;
+    color: #fff;
+    font-weight: 550;
+    font-size: 0.7em;
+}
+footer ul {
+    padding: 0px;
+    margin: 0px;
+}
+footer ul li {
+    display: inline-block;
+} 
+.change{
+    padding: 0px;
+}
+.product {
+    padding: 0;
+}
+.product ul {
+    padding-top: 10px;
+}
+.we {
+    padding: 0px;
+}
+.title {
+    padding: 10px 0px 10px 2px;
+}
+.two-dimension-code {
+    width: 92px;
+    height: 92px;
+    background: url(../img/bg.png) -10px -10px;
+}
+.text {
+    border-top: 1px solid #999;
+    font-size: 0.7em; 
+}

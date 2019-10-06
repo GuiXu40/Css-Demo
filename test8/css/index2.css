@@ -1,0 +1,171 @@
+a {
+    color: #000;
+}
+h4 {
+    padding-left: 13px;
+}
+#nav-bar .profession {
+    border-bottom: 1px solid #aaa;
+    padding-top: 20px;
+    padding-bottom: 20px; 
+}
+#nav-bar .text {
+    color: #29b078;
+    border: 0;
+    font-size: 1em;
+}
+#nav-bar .direction {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #cdcfce;
+}
+#nav-bar .direction div {
+    display: inline-block;
+}
+#nav-bar .direction ul {
+    padding: 0px;
+    display: inline-block;
+}
+#nav-bar .direction ul li{
+    display: inline-block;
+    margin-left: 10px;
+}
+#nav-bar .direction ul li:nth-child(1) {
+    background-color: #29b078;
+    padding: 0 5px;
+    color: #fff;
+}
+.item {
+    padding: 10px 10px 10px 10px;
+}
+.box {
+    border: 1px solid #aaa;
+    position: relative;
+}
+.thead {
+    height: 112px;
+}
+.thead>div{
+    display: block;
+    float: left;
+    box-sizing: border-box;
+}
+.portrait {
+    width: 40%;
+}
+.box .thead .intro {
+    width: 60%;
+    padding-left: 10px;
+}
+.portrait img {
+    width: 110px;
+    height: 110px;
+    padding: 10px 10px 10px 10px;
+}
+.text {
+    border: 0px;
+    padding-top: 15px;
+}
+.tbody .box1 {
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.tbody .box1>div {
+    width: 50%;
+    box-sizing: border-box;
+}
+.tbody img {
+    align-self: center;
+}
+.tbody .title {
+    display: inline-block;
+    padding: 0;
+}
+.menkan {
+    padding: 10px 0 10px 5px;
+    border: 1px solid #aaa;
+    border-top: 0;
+    border-left: 0;
+}
+.nandu {
+    padding: 10px 0 10px 5px;
+    border-bottom: 1px solid #aaa;
+}
+.num {
+    color: red;
+}
+.chengzhang {
+    padding: 10px 0 10px 5px;
+    border-right: 1px solid #aaa;
+}
+.chengzhang div {
+    display: inline-block;
+}
+.xique {
+    padding: 10px 0 10px 5px;
+}
+.xinzi {
+    height: 100px;
+    width: 100%;
+}
+.xinzi>div {
+    float: left;
+}
+.xinzi div {
+    box-sizing: border-box;
+}
+.xinzi .title {
+    width: 40%;
+    line-height: 100px;
+    text-align: center;
+    border-right: 1px solid #aaa;
+}
+.xinzi .content {
+    width: 60%;
+}
+.xinzi .content .text {
+    font-size: 1em;
+    padding-top: 8px;
+}
+.xinzi .content .text .year {
+    padding-left: 10px;
+    padding-right: 15px;
+}
+.tbody .study{
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    border-top: 1px solid #aaa;
+    padding-left: 10px;
+}
+.tbody .tishi {
+    height: 56px;
+    width: 100%;
+    border-top: 1px solid #aaa;
+    padding: 10px 0px 10px 10px;
+    color: #aaa;
+}
+.ios {
+    position: absolute;
+    top: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    text-align: center;
+}
+.ios .title {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.ios .content {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.box:hover .ios {
+    display: block;
+}
