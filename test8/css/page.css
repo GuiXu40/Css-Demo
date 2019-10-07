@@ -79,12 +79,15 @@ header>div:nth-child(2) {
     text-decoration:none; 
     color: #fff;
 }
-.navs li:active {
+.navs li:hover {
     padding-bottom: 33px;
     border-bottom: 2px solid #FFF;
     cursor: pointer;
 }
 .menu {
+    display: none;
+}
+#check-box {
     display: none;
 }
 @media screen and (max-width: 700px){
@@ -103,6 +106,9 @@ header>div:nth-child(2) {
         right: 3px;
         background: url(../img/menu.png) no-repeat;
     }
+    #check-box:checked ~ .navs {
+        display: block;
+    }
     .logo {
         width: 100%;
         background-repeat: no-repeat;
@@ -117,9 +123,6 @@ header>div:nth-child(2) {
         display: none;
     }
     /* hover:只有后代元素和兄弟元素（紧接在元素后的兄弟元素）才有效果 */
-    .menu:active+.navs{
-       display: inline;
-    }
     .navs > li {
         padding: 10px 30px 10px 30px;
         display: inline-block;
@@ -127,10 +130,8 @@ header>div:nth-child(2) {
         text-align: center;
         background-color: #29b078;
     }
-    .navs li :hover {
-        padding-bottom: 8px;
-        border-bottom: 2px solid #FFF;
-        cursor: pointer;
+    .navs li:hover {
+        padding-bottom: 5px;
     }
 }
 footer {
