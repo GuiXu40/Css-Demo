@@ -1,4 +1,4 @@
-main img {
+img {
     width: 100vw;
 }
 main a {
@@ -25,6 +25,14 @@ main .company {
 main ul li a {
     color: #29b078;
 }
+main ul li:hover {
+    color: #29b078 !important;
+    list-style: circle;
+}
+main ul li:hover a{
+    text-decoration: none;
+    color: #f1a750 !important;
+}
 main .company div {
     text-align: left;
     display: inline-block;
@@ -44,6 +52,7 @@ main .text1 {
 main .title {
     padding: 30px;
     height: 200px;
+    border-bottom: 1px solid #aaa; 
 }
 main .title img {
     width: 100px;
@@ -66,11 +75,16 @@ main .article p{
     padding: 5px 20px 5px 20px;
 }
 @media screen and (max-width: 1000px){
-    .tudou {
+    main .title {
+        height: auto;
+        margin-bottom: 30px;
+        overflow: auto;
+    }
+    main .tudou {
         width: 100%;
         height: auto;
     }
-    .wenben {
+    main .wenben {
         width: 100%;
     }
 }
