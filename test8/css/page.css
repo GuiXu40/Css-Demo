@@ -8,6 +8,9 @@ a {
     text-decoration:none; 
     color: #fff;
 }
+a:hover {
+    color: #fff !important;
+}
 li {
     list-style: none;
 }
@@ -72,7 +75,7 @@ header>div:nth-child(2) {
     display: inline-block;
     box-sizing: border-box;
     font-size: 22px;
-    padding: 40px 10px 35px 10px;
+    padding: 40px 10px 36px 10px;
 
 }
 .navs li a {
@@ -80,7 +83,7 @@ header>div:nth-child(2) {
     color: #fff;
 }
 .navs li:hover {
-    padding-bottom: 33px;
+    padding-bottom: 34px;
     border-bottom: 2px solid #FFF;
     cursor: pointer;
 }
@@ -104,7 +107,10 @@ header>div:nth-child(2) {
         position: absolute;
         top: 20px;
         right: 3px;
-        background: url(../img/menu.png) no-repeat;
+        transform: scale(.6)
+    }
+    .menu:hover{
+        background-color: rgb(0, 0, 0,0.3);
     }
     #check-box:checked ~ .navs {
         display: block;
