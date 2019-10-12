@@ -197,6 +197,9 @@ main .student>div {
     main .container {
         margin-top: 30px;
     }
+    #intro .item {
+        width: 100%;
+    }
     .study .item {
         width: 100%;
         display: flex;
@@ -205,6 +208,9 @@ main .student>div {
     #cooperate .item{
         width: 100%;
         margin-top: 30px;
+    }
+    #students .box {
+        width: 100%;
     }
     #links ul li{
         list-style: none;
