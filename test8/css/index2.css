@@ -1,8 +1,13 @@
 main a {
     color: #000;
 }
+main .row>h4 {
+    padding-bottom: 20px; 
+    border-bottom: 1px solid #aaa;
+}
 main h4 {
     padding-left: 13px;
+    border: 0;
 }
 #nav-bar .profession {
     border-bottom: 1px solid #aaa;
@@ -62,7 +67,7 @@ main h4 {
     height: 110px;
     padding: 10px 10px 10px 10px;
 }
-main.text {
+.text {
     border: 0px;
     padding-top: 15px;
 }
@@ -142,7 +147,7 @@ main.text {
     padding-left: 10px;
 }
 .tbody .tishi {
-    height: 56px;
+    /* height: 56px; */
     width: 100%;
     border-top: 1px solid #aaa;
     padding: 10px 0px 10px 10px;
@@ -168,4 +173,26 @@ main.text {
 }
 .box:hover .ios {
     display: block;
+}
+.tuo {
+    height: 100px;
+    width: 100%;
+}
+@media screen and (max-width: 700px){
+    .thead {
+        overflow: auto;
+        height: auto;
+    }
+    .container .row .item {
+        width: 100%;
+    }
+    .portrait {
+        width: 100%;
+        text-align: center;
+    }
+    .box .thead .intro {
+        display: block;
+        text-align: center;
+        width: 100%;
+    }
 }
