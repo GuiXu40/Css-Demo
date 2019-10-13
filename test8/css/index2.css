@@ -47,29 +47,33 @@ main h4 {
     border: 1px solid #aaa;
     position: relative;
 }
-.thead {
+/* .thead {
     height: 112px;
+} */
+.thead:before, .thead:after {
+    display: block;
+    content: " ";
+    clear: both;
 }
 .thead>div{
     display: block;
     float: left;
     box-sizing: border-box;
 }
-.portrait {
-    width: 40%;
+.thead .portrait {
+    width: 35%;
 }
 .box .thead .intro {
     width: 60%;
     padding-left: 10px;
 }
-.portrait img {
+.thead .portrait img {
     width: 110px;
     height: 110px;
     padding: 10px 10px 10px 10px;
 }
-.text {
+.thead .text {
     border: 0px;
-    padding-top: 15px;
 }
 .tbody .box1 {
     border-top: 1px solid #aaa;
@@ -186,7 +190,7 @@ main h4 {
     .container .row .item {
         width: 100%;
     }
-    .portrait {
+    .thead .portrait {
         width: 100%;
         text-align: center;
     }
@@ -194,5 +198,9 @@ main h4 {
         display: block;
         text-align: center;
         width: 100%;
+        padding-right: 10px;
+    }
+    main h4 {
+        padding-left: 0px;
     }
 }
