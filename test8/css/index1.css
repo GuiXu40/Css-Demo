@@ -171,9 +171,17 @@ main .student>div {
     list-style: disc;
     color: #aaa;
     font-size: 0.7em;
+    margin-bottom: 5px;
+
+}
+#links ul li a {
+    text-decoration: none;
+    padding-bottom: 2px;
 }
 #links ul li:hover a{
     color: #aaa;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #aaa;
 }
 @media screen and (max-width: 430px){
     main .container .row>div {
