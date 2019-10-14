@@ -181,7 +181,7 @@ main .student>div {
 #links ul li:hover a{
     color: #aaa;
     padding-bottom: 2px;
-    border-bottom: 1px solid #aaa;
+    border-bottom: 1px solid #29b078;
 }
 @media screen and (max-width: 430px){
     main .container .row>div {
