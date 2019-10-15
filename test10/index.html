@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>制作箱</title>
+    <script src="js/jquery-3.4.0.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="tell">客服热线：010-594-78634</div>
+            <div class="login">
+                <button class="btn1">登录</button>
+                <button class="btn1">注册</button>
+            </div>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <div class="big"></div>
+            <div class="item">
+                <input type="checkbox" id="check-box">
+                <div class="btns">
+                    <button class="btn btn-defalut">首页</button>
+                    <button class="btn btn-defalut">在线定制</button>
+                    <button class="btn btn-defalut">标准箱</button>
+                    <button class="btn btn-defalut">品质保证</button>
+                </div>
+                <label for="check-box">Menu</label>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <div class="container" >
+            <div id="step">
+                <div class="sbox flag">
+                    <div class="num ">
+                        <span>1</span>
+                    </div>
+                    <div class="text">1.定制纸箱</div>
+                </div>
+                <div class="sbox">
+                    <div class="num">
+                        <span>2</span>
+                    </div>
+                    <div class="text">2.选择数量</div>
+                </div>
+                <div class="sbox">
+                    <div class="num">
+                        <span>3</span>
+                    </div>
+                    <div class="text">3.上传附件</div>
+                </div>
+                <div class="sbox">
+                    <div class="num">
+                        <span>4</span>
+                    </div>
+                    <div class="text">4.确认下单</div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="title">请按照以下步骤来定制您的纸箱</div>
+            <div class="items">
+                <div class="item xiangxing">
+                    <div class="xiangxi">
+                        <span class="icon"></span>
+                        <span class="text">选择箱型</span>
+                    </div>
+                    <div class="content">
+                        <div>
+                            <input type="radio" id="a" name="1" checked>
+                            <label for="a" class="abc">
+                                <div class="icon1"></div>
+                                <span>对口箱</span>
+                            </label>
+                            <input type="radio" id="b" name="1">
+                            <label for="b" class="abc">
+                                <div class="icon1"></div>
+                                <span>飞机箱</span>
+                            </label>
+                            <input type="radio" id="c" name="1">
+                            <label for="c" class="abc">
+                                <div class="icon1"></div>
+                                <span>天地盖</span>
+                            </label>
+                        </div>
+                        <select name="" id="" class="form-control">
+                            <option value="">查看详情</option>
+                            <option value="">对口箱</option>
+                            <option value="">飞机箱</option>
+                            <option value="">天地盖</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="item chicun">
+                    <div class="xiangxi">
+                        <span class="icon"></span>
+                        <span class="text">确定尺寸</span>
+                    </div>
+                    <div class="content">
+                        <div class="boxs">
+                            <div class="box1">
+                                <input type="radio" id="d" name="2" checked>
+                                <label for="d" class="abc">
+                                    <div class="icon1"></div>
+                                    <span>外径</span>
+                                </label>
+                                <div class="number">
+                                    <span>长</span>
+                                    <input type="number">
+                                    <span>mm</span>
+                                </div>
+                                <div class="number">
+                                    <span>宽</span>
+                                    <input type="number">
+                                    <span>mm</span>
+                                </div>
+                                <div class="number">
+                                    <span>高</span>
+                                    <input type="number">
+                                    <span>mm</span>
+                                </div>
+                            </div>
+                            <div class="box2">
+                                <input type="radio" id="e" name="2" checked>
+                                <label for="e" class="abc">
+                                    <div class="icon1"></div>
+                                    <span>内径</span>
+                                </label>
+                                <div class="number">
+                                    <span>长</span>
+                                    <input type="number">
+                                    <span>mm</span>
+                                </div>
+                                <div class="number">
+                                    <span>宽</span>
+                                    <input type="number">
+                                    <span>mm</span>
+                                </div>
+                                <div class="number">
+                                    <span>高</span>
+                                    <input type="number">
+                                    <span>mm</span>
+                                </div>
+                            </div>
+                        </div>
+                        <select name="" id="" class="form-control">
+                            <option value="">查看详情</option>
+                            <option value="">对口箱</option>
+                            <option value="">飞机箱</option>
+                            <option value="">天地盖</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="item cainiao">
+                    <div class="xiangxi">
+                        <span class="icon"></span>
+                        <span class="text">确定材质</span>
+                    </div>
+                    <div class="content">
+                        <div class="box">
+                            <input type="radio" id="f" name="3" checked>
+                            <label for="f" class="abc">
+                                <div class="icon1"></div>
+                                <span>三层A瓦优质</span>
+                            </label>
+                            <input type="radio" id="g" name="3" checked>
+                            <label for="g" class="abc">
+                                <div class="icon1"></div>
+                                <span>三层A瓦优质</span>
+                            </label>
+                            <input type="radio" id="h" name="3" checked>
+                            <label for="h" class="abc">
+                                <div class="icon1"></div>
+                                <span>三层A瓦优质</span>
+                            </label>
+                            <input type="radio" id="i" name="3" checked>
+                            <label for="i" class="abc">
+                                <div class="icon1"></div>
+                                <span>三层A瓦优质</span>
+                            </label>
+                            <input type="radio" id="g" name="3" checked>
+                            <label for="g" class="abc">
+                                <div class="icon1"></div>
+                                <span>三层A瓦优质</span>
+                            </label>
+                        </div>
+                        <select name="" id="" class="form-control">
+                            <option value="">查看详情</option>
+                            <option value="">对口箱</option>
+                            <option value="">飞机箱</option>
+                            <option value="">天地盖</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="btn-controll">
+                    <button class="btn btn-danger">下一步</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container ">
+            <div class="row">
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 item item1">51包装网——纸箱包装首选服平台</div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 item">
+                    <div class="links">
+                        <div class="">
+                            <span><a href="#">关于我们</a></span>
+                            <span><a href="#">配送流程</a></span>
+                            <span><a href="#">联系我们</a></span>
+                        </div>
+                        <div class="">
+                            <span><a href="#">下单我们</a></span>
+                            <span><a href="#">媒体介绍</a></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 item">
+                    <div class="contact">
+                        <div class="ways">
+                            <div class="phone">TEL:400-0000-000</div>
+                            <div class="">企业QQ:123456789</div>
+                            <div class="">微信号：XXXXXXX</div>
+                        </div>
+                        <div class="way">
+                            <div class="two-demension-code"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid box text-center">
+            <span>
+                北京五一包装科技有限公司Copyright ©2015 
+            </span>
+            <span>
+                51baozhuang.com015 
+            </span>
+            <span>
+                All rights reserved. 
+            </span>
+            <span>
+                京icp备999999999-1 
+            </span>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,364 @@
+body {
+    margin: 0;
+}
+header {
+    background-color: #1d7ad9;
+    height: 40px;
+    width: 100%;
+}
+header .tell {
+    display: inline-block;
+    line-height: 40px;
+    color: #fff;
+}
+header .login {
+    float: right;
+    height: 100%;
+}
+header .login>button {
+    height: 40px;
+    border: 0;
+    background-color: #1d7ad9;
+    color: #fff;
+}
+header .login>button:hover {
+    background-color: #fff;
+    color: #000;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 0;
+}
+footer {
+    width: 100%;
+}
+footer .container-fluid {
+    height: 40px;
+    background-color: #1d7ad9;
+    color: #fff;
+    line-height: 40px;
+}
+footer .container-fluid span {
+    margin-right: 10px;
+}
+footer .container-fluid span:nth-child(4) {
+    margin-right: 0px;
+}
+.two-demension-code {
+    width: 92px;
+    height: 92px;
+    background: url(../img/bg.png) -10px -10px;
+}
+footer .item1 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #999999
+}
+footer .links {
+    color: #999;
+}
+footer .links span {
+    padding: 0 5px 10px 5px;
+}
+footer .links span a {
+    color: #999;
+}
+footer .contact>div {
+    display: inline-block;
+
+    /* float: right; */
+}
+footer .contact {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+footer .contact .ways {
+    vertical-align: top;
+}
+footer .contact .ways>div {
+    margin-bottom: 10px;
+}
+footer .contact .ways .phone {
+    padding-top: 5px;
+}
+nav {
+    background-color: #f9f9f9;
+}
+nav .item {
+    display: flex;
+    justify-content: flex-end;
+}
+nav .item input {
+    display: none;
+}
+nav .item label {
+    display: none;
+}
+nav .item .btns button {
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#step {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+}
+#step .sbox {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#step .sbox .num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#step .sbox .num span {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #ccc;
+    color: #fff
+}
+#step .sbox .num:before {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left: -1px;
+}
+#step .sbox .num:before, #step .sbox .num:after {
+    content: " ";
+    width: 5vw;
+    height: 5px;
+    background: #ccc;
+}
+#step .flag .num:before, #step .flag .num:after {
+    content: " ";
+    width: 5vw;
+    height: 5px;
+    background: #ff7f02;
+}
+#step .flag .text{
+    color: #ff7f02;
+}
+#step .flag .num span {
+    background: #ff7f02;
+}
+#step .sbox:hover .text{
+    color: #ff7f02;
+}
+#step .sbox:hover .num span {
+    background: #ff7f02;
+}
+#step .sbox:hover .num:before,#step .sbox:hover .num:after {
+    content: " ";
+    width: 5vw;
+    height: 5px;
+    background: #ff7f02;
+}
+main .title {
+    width: 100%;
+    border-left: 2px solid #1d7ad9;
+    font-weight: 600;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+main .items {
+    border: 1px solid #999;
+    margin-bottom: 150px;
+}
+main .items .item {
+    border-bottom: 1px solid #999;
+}
+main .item .xiangxi {
+    background-color: #f3f3f3;
+    padding: 10px 0px 10px 10px;
+}
+main .xiangxing .icon {
+    display: inline-block;
+    width: 19px;
+    height: 15px;
+    background: url(../img/bg.png) -10px -122px;
+    vertical-align: top;
+}
+main .item .xiangxi .text {
+    color: #1d7ad9;
+    padding-left: 15px;
+}
+main .chicun .icon {
+    display: inline-block;
+    width: 22px;
+    height: 20px;
+    background: url(../img/bg.png) -122px -10px;
+}
+main .chicun .xiangxi .text {
+    padding-left: 11px;
+}
+main .cainiao .icon {
+    display: inline-block;
+    width: 15px;
+    height: 20px;
+    background: url(../img/bg.png) -122px -50px;
+}
+main .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+main .content input[type="radio"] {
+    display: none;
+}
+main .content label {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+main .content .icon1 {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    background: #fff;
+    vertical-align: top;
+}
+#a:checked + .abc .icon1 {
+    border: 4px solid #1d7ad9;
+}
+#b:checked + .abc .icon1 {
+    border: 4px solid #1d7ad9;
+}
+#c:checked + .abc .icon1 {
+    border: 4px solid #1d7ad9;
+}
+#d:checked + .abc .icon1 {
+    border: 4px solid #1d7ad9;
+}
+#e:checked + .abc .icon1 {
+    border: 4px solid #1d7ad9;
+}
+#f:checked + .abc .icon1 {
+    border: 4px solid #1d7ad9;
+}
+#g:checked + .abc .icon1 {
+    border: 4px solid #1d7ad9;
+}
+#h:checked + .abc .icon1 {
+    border: 4px solid #1d7ad9;
+}
+#i:checked + .abc .icon1 {
+    border: 4px solid #1d7ad9;
+}
+#g:checked + .abc .icon1 {
+    border: 4px solid #1d7ad9;
+}
+main .form-control {
+    width: auto;
+    border: solid 1px #000;
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    background: url(../img/a.png) no-repeat scroll right center transparent;
+    background-position-x: 95%;
+    /*为下拉小箭头留出一点位置，避免被文字覆盖*/
+    padding-right: 40px;
+}
+main .boxs>div>div {
+    display: inline-block;
+}
+main .number {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+main .number input[type="number"] {
+    width: 50px;
+}
+main .btn-controll {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .btn-controll .btn {
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 30px;
+}
+@media screen and (max-width: 700px) {
+    footer .links>div {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    footer .contact {
+        flex-wrap: wrap;
+    }
+    footer .contact .ways div {
+        display: block;
+    }
+}
+@media screen and (max-width: 520px) {
+    footer .item {
+        width: 100%;
+    }
+    footer .contact {
+        justify-content: flex-start;
+    }
+    footer .links span {
+        padding-left: 0;
+        padding-bottom: 0;
+        margin-top: 10px;
+    }
+    nav .item label {
+        position: absolute;
+        right: 20px;
+        top: 50px;
+        display: block;
+    }
+    nav .big {
+        width: 100%;
+        height: 40px;
+    }
+    nav .item button {
+        width: 100%;
+        margin: 0px;
+    }
+    .btns {
+        display: none;
+        width: 100%;
+    }
+    nav .item .btns button{
+        margin: 0;
+        background-color: #fff;
+        border-bottom: 1px solid #ccc;
+        border-radius: 0;
+    }
+    #check-box:checked~.btns {
+        display: block;
+    }
+}
+@media screen and (max-width: 640px){
+    #step .sbox .num:before, #step .sbox .num:after {
+        width: 28px;
+    }
+    #step .flag .num:before, #step .flag .num:after {
+        width: 28px;
+    }
+    #step .sbox:hover .num:before,#step .sbox:hover .num:after {
+        width: 28px;
+    }
+    main .boxs>div {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    main .box1 {
+        margin-bottom: 10px;
+    }
+    main .boxs>div>div {
+        margin-top: 10px;
+    }
+
+}
