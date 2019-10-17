@@ -33,6 +33,9 @@ footer {
     width: 100%;
 }
 footer .container-fluid {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 14px;
     background-color: #1d7ad9;
     color: #fff;
 }
