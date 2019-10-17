@@ -20,6 +20,7 @@ header .login>button {
     border: 0;
     background-color: #1d7ad9;
     color: #fff;
+    border-left: 1px solid #fff;
 }
 header .login>button:hover {
     background-color: #fff;
@@ -62,9 +63,12 @@ footer .links span {
 footer .links span a {
     color: #999;
 }
+footer .links span a:hover {
+    color: #1d7ad9;
+}
 footer .contact>div {
     display: inline-block;
-
+    color: #999;
     /* float: right; */
 }
 footer .contact {
