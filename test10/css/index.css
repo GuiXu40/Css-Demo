@@ -335,10 +335,15 @@ main .btn-controll .btn {
         width: 100%;
     }
     nav .item .btns button{
+        border: 0;
         margin: 0;
         background-color: #fff;
         border-bottom: 1px solid #ccc;
         border-radius: 0;
+    }
+    nav .item .btns button:hover {
+        background-color: #1d7ad9;
+
     }
     #check-box:checked~.btns {
         display: block;
