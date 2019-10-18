@@ -88,6 +88,7 @@ footer .contact .ways .phone {
 }
 nav {
     background-color: #f9f9f9;
+    width: 100%;
 }
 nav .item {
     display: flex;
@@ -99,10 +100,35 @@ nav .item input {
 nav .item label {
     display: none;
 }
-nav .item .btns button {
-    margin-left: 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+nav .item .btns input {
+    display: none;
+}
+nav .item .btns label {
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    height: 40px;
+    border-radius: 10px;
+    margin: 10px 0px 10px 10px;
+    line-height: 40px;
+    background-color: #fff;
+    font-weight: 500;
+}
+#h:checked + .sss {
+    background-color: #1d7ad9;
+    color: #fff;
+}
+#i:checked + .sss {
+    background-color: #1d7ad9;
+    color: #fff;
+}
+#j:checked + .sss {
+    background-color: #1d7ad9;
+    color: #fff;
+}
+#k:checked + .sss {
+    background-color: #1d7ad9;
+    color: #fff;
 }
 #step {
     width: 100%;
@@ -316,7 +342,7 @@ main .btn-controll .btn {
         padding-bottom: 0;
         margin-top: 10px;
     }
-    nav .item label {
+    nav .item .xx {
         position: absolute;
         right: 20px;
         top: 50px;
@@ -326,24 +352,15 @@ main .btn-controll .btn {
         width: 100%;
         height: 40px;
     }
-    nav .item button {
+    nav .item .btns label {
+        display: block;
         width: 100%;
         margin: 0px;
+        border-radius: 0;
     }
     .btns {
         display: none;
         width: 100%;
-    }
-    nav .item .btns button{
-        border: 0;
-        margin: 0;
-        background-color: #fff;
-        border-bottom: 1px solid #ccc;
-        border-radius: 0;
-    }
-    nav .item .btns button:hover {
-        background-color: #1d7ad9;
-
     }
     #check-box:checked~.btns {
         display: block;
