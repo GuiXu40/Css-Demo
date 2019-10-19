@@ -136,6 +136,9 @@ nav .item .btns label {
     justify-content: flex-end;
     text-align: center;
 }
+#step input {
+    display: none;
+}
 #step .sbox {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -165,25 +168,49 @@ nav .item .btns label {
     height: 5px;
     background: #ccc;
 }
-#step .flag .num:before, #step .flag .num:after {
+#aa:checked + .www .text{
+    color: #ff7f02;
+}
+#aa:checked + .www .num span {
+    background: #ff7f02;
+}
+#aa:checked + .www .num:before,#aa:checked + .www .num:after {
     content: " ";
     width: 5vw;
     height: 5px;
     background: #ff7f02;
 }
-#step .flag .text{
+#bb:checked + .www .text{
     color: #ff7f02;
 }
-#step .flag .num span {
+#bb:checked + .www .num span {
     background: #ff7f02;
 }
-#step .sbox:hover .text{
+#bb:checked + .www .num:before,#bb:checked + .www .num:after {
+    content: " ";
+    width: 5vw;
+    height: 5px;
+    background: #ff7f02;
+}
+#cc:checked + .www .text{
     color: #ff7f02;
 }
-#step .sbox:hover .num span {
+#cc:checked + .www .num span {
     background: #ff7f02;
 }
-#step .sbox:hover .num:before,#step .sbox:hover .num:after {
+#cc:checked + .www .num:before,#cc:checked + .www .num:after {
+    content: " ";
+    width: 5vw;
+    height: 5px;
+    background: #ff7f02;
+}
+#dd:checked + .www .text{
+    color: #ff7f02;
+}
+#dd:checked + .www .num span {
+    background: #ff7f02;
+}
+#dd:checked + .www .num:before,#dd:checked + .www .num:after {
     content: " ";
     width: 5vw;
     height: 5px;
