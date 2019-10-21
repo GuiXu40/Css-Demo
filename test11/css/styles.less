@@ -1,0 +1,75 @@
+@distance: 10px;
+@color: #fff;
+@bgcolor: #5fc0cd;
+.Rules(@top:10px,@bottom:10px,@height:50px,@color:#fff) {
+    margin-top: @top;
+    margin-bottom: @bottom;
+    height: @height;
+    background: @color;
+};
+body {
+    margin: 0;
+    background: #eee;
+}
+  
+a {
+    text-decoration: none;
+    color: @color;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: @distance*5;
+    background: @bgcolor;
+
+    a {
+        padding-left: @distance;
+        padding-right: @distance;
+    }
+
+    .title {
+        font-weight: 600;
+        font-size: 16px;
+        color: @color; 
+    }
+}
+main {
+    .iphone {
+        .Rules();
+    }
+    .locked {
+        .Rules();
+    }
+    img {
+        vertical-align: middle;
+        margin-left: @distance;
+        margin-right: @distance;
+        transform: scale(0.7);
+    }
+    input {
+        border: 1px solid transparent;
+        border-left: 1px solid #999;
+        padding-left: @distance;
+        height: @distance*2;
+        outline: none;
+    }
+}
+footer {
+    button {
+        width: 100vw;
+        height: 45px;
+        border: none;
+        font-size: 16px;
+        letter-spacing: 5px;
+        background: @bgcolor;
+        color: @color; 
+    }
+    a {
+        float: right;
+        margin-top: @distance;
+        font-size: 14px;
+        color: @bgcolor;
+    }
+}
