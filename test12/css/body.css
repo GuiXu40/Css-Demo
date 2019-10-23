@@ -1,0 +1,9 @@
+body {
+  margin: 0px;
+}
+body ul {
+  list-style: none;
+}
+body select::-ms-expand {
+  display: none;
+}
