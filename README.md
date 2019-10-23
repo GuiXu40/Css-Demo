@@ -24,3 +24,6 @@ It修真院的修炼
 
 ## 任务11:登录页——使用less预编译语言编译
 #### <a href="https://guixu40.github.io/Css-Demo/test11/index.html">成果展</a>
+
+## 任务12:标准化——阅读html和css规范，不使用bs重写任务5和6（护工）
+#### <a href="https://guixu40.github.io/Css-Demo/test12/index.html">成果展</a>
