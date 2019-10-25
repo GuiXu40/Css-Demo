@@ -27,3 +27,6 @@ It修真院的修炼
 
 ## 任务12:标准化——阅读html和css规范，不使用bs重写任务5和6（护工）
 #### <a href="https://guixu40.github.io/Css-Demo/test12/index.html">成果展</a>
+
+## 任务13:组织样式表——按照任务12的标准，不使用bs重写任务7样式，并且阅读样式表组织规范，拆分样式表
+#### <a href="https://guixu40.github.io/Css-Demo/test13/index.html">成果展</a>
