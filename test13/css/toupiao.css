@@ -1,0 +1,228 @@
+body {
+  line-height: 1.4;
+  color: #333;
+  font-family: arial;
+  font-size: 12px;
+  background: white;
+}
+input,
+textarea,
+select {
+  font-size: 12px;
+  font-size: 100%;
+  font-family: arial;
+  font-family: inherit;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+form {
+  margin: 0;
+}
+h4,
+h5,
+h6 {
+  font-size: 1em;
+}
+ul,
+ol {
+  padding-left: 0;
+  list-style-type: none;
+}
+/*image with no-border*/
+a img {
+  border: 0;
+}
+img {
+  border: 0;
+}
+body {
+  margin: 0;
+}
+header {
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #29bde0;
+  color: #ffffff;
+  text-align: center;
+  line-height: 60px;
+  font-size: 30px;
+  display: inline-block;
+  z-index: 3;
+}
+header img {
+  position: absolute;
+  top: 10px;
+}
+header .header-img-1 {
+  left: 5px;
+}
+header .header-img-2 {
+  right: 5px;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 120px;
+  width: 100%;
+  background-color: #29bde0;
+}
+footer button {
+  width: 80%;
+  height: 80px;
+  margin-left: 10%;
+  margin-top: 20px;
+  color: #ffffff;
+  background-color: #fbb435;
+  font-size: 30px;
+  text-align: center;
+  line-height: 80px;
+  border: 0;
+}
+footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+main {
+  position: fixed;
+  width: 100%;
+  margin-top: 60px;
+  background-color: #29bde0;
+}
+main .main-div0 {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  box-sizing: border-box;
+  background-color: #b9e9f5;
+  padding-left: 5%;
+  font-size: 21px;
+  color: #80989e;
+}
+main .main-div0 > div:nth-child(1) {
+  position: absolute;
+  top: 3px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fbb435;
+}
+main .main-div0 > div:nth-child(1) img {
+  position: absolute;
+  left: 14px;
+  top: 10px;
+}
+main .main-div0 > div:nth-child(2) {
+  position: absolute;
+  top: 59px;
+  left: 100px;
+  border-top: 16px solid #b9e9f5;
+  border-bottom: 16px solid rgba(94, 140, 151, 0);
+  border-left: 10px solid rgba(185, 233, 245, 0);
+  border-right: 10px solid rgba(185, 233, 245, 0);
+}
+main .main-div1 {
+  height: 60px;
+  width: 100%;
+  box-sizing: border-box;
+  color: #ffffff;
+  font-size: 20px;
+  padding-left: 90px;
+  line-height: 60px;
+}
+main .main-div2 {
+  width: 100%;
+  height: 430px;
+  overflow: scroll;
+}
+main .main-div2::-webkit-scrollbar {
+  display: none;
+}
+main .main-div2 .main-div2-div1 {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #29bde0;
+  margin-top: 20px;
+}
+main .main-div2 .main-div2-div1 .main-div2-div1-div1 {
+  width: 100px;
+  height: 100%;
+}
+main .main-div2 .main-div2-div1 .main-div2-div1-div1 .identity {
+  height: 110px;
+  width: 100%;
+  text-align: center;
+  border: 3px solid #ffffff;
+  box-sizing: border-box;
+}
+main .main-div2 .main-div2-div1 .main-div2-div1-div1 .identity > div:nth-child(1) {
+  width: 100%;
+  height: 82px;
+  line-height: 82px;
+  font-size: 28px;
+  color: #7e735f;
+  background-color: #f5c97b;
+}
+main .main-div2 .main-div2-div1 .main-div2-div1-div1 .identity > div:nth-child(2) {
+  width: 100%;
+  height: 22px;
+  line-height: 22px;
+  background-color: #83b09a;
+  color: #ffffff;
+  font-size: 17px;
+}
+main .main-div2 .main-div2-div1 .main-div2-div1-div1 .img-contain {
+  display: none;
+}
+main .main-div2 .main-div2-div1 .main-div2-div1-div1 .img-contain img {
+  width: 23px;
+  height: 23px;
+}
+main .main-div2 .main-div2-div1 .main-div2-div1-div1:hover .img-contain {
+  display: flex;
+  width: 100px;
+  height: 40px;
+  margin-top: 12px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 320px) {
+  main .main-div2 {
+    width: 140px;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    margin-left: -70px;
+  }
+  main .main-div2 .main-div2-div1 {
+    width: 100%;
+    flex-wrap: wrap;
+    height: 450px;
+  }
+  main .main-div2 .main-div2-div1 .main-div2-div1-div1 {
+    width: 100%;
+    height: 150px;
+  }
+  main .main-div2 .main-div2-div1:hover .img-contain {
+    width: 100%;
+  }
+}
+main .buchong {
+  height: 1000px;
+  width: 100%;
+}

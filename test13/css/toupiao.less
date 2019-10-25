@@ -1,0 +1,185 @@
+@import "main.less";
+body {
+    margin: @zero;
+}
+header {
+    width: @wid;
+    height: 60px;
+    position: fixed;
+    top: @zero;
+    left: @zero;
+    background-color: @color2; 
+    color: @color1;
+    text-align: center;
+    line-height: 60px;
+    font-size: 30px;
+    display: inline-block;
+    z-index: 3;
+    img {
+        position: absolute;
+        top: 10px;
+    }
+    .header-img-1 {
+        left: 5px;
+    }
+    
+    .header-img-2 {
+        right: 5px;
+    }
+}
+footer {
+    position: fixed;
+    bottom: @zero;
+    left: @zero;
+    height: 120px;
+    width: @wid;
+    background-color: @color2;
+    button {
+        width: 80%;
+        height: 80px;
+        margin-left: 10%;
+        margin-top: 20px;
+        color: @color1;
+        background-color: #fbb435;
+        font-size: 30px;
+        text-align: center;
+        line-height: 80px;
+        border: @zero;
+    }
+    a {
+        text-decoration:none; 
+        color:@color1;
+    }
+}
+main {
+    position: fixed;
+    width: @wid;
+    margin-top: 60px;
+    background-color: @color2; 
+    .main-div0 {
+        position: relative;
+        width: @wid;
+        height: 60px;
+        line-height: 60px;
+        box-sizing: border-box;
+        background-color: #b9e9f5;
+        padding-left: 5%;
+        font-size: 21px;
+        color: #80989e;
+        &>div:nth-child(1) {
+            position: absolute;
+            top: 3px;
+            right: 10px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #fbb435;
+            img {
+                position: absolute;
+                left: 14px;
+                top: 10px;
+            }
+        }
+        &>div:nth-child(2) {
+            position: absolute;
+            top: 59px;
+            left: 100px;
+            border-top: 16px solid #b9e9f5;
+            border-bottom: 16px solid rgba(94, 140, 151, @zero);
+            border-left: 10px solid rgba(185, 233, 245,@zero);
+            border-right: 10px solid rgba(185, 233, 245,@zero);
+        }
+    }
+    .main-div1 {
+        height: 60px;
+        width: 100%;
+        box-sizing: border-box;
+        color: @color1;
+        font-size: 20px;
+        padding-left: 90px;
+        line-height: 60px;
+    }
+    .main-div2 {
+        width: @wid;
+        height: 430px;
+        overflow: scroll;
+        &::-webkit-scrollbar {
+            display: none;
+        }
+        .main-div2-div1 {
+            width: @wid;
+            height: 150px;
+            display: flex;
+            justify-content: space-around;
+            background-color: @color2;
+            margin-top: 20px;
+            .main-div2-div1-div1 {
+                width: 100px;
+                height: @wid;
+                .identity {
+                    height: 110px;
+                    width: @wid;
+                    text-align: center;
+                    border: 3px solid @color1;
+                    box-sizing: border-box;
+                    &>div:nth-child(1) {
+                        width: @wid;
+                        height: 82px;
+                        line-height: 82px;
+                        font-size: 28px;
+                        color: #7e735f;
+                        background-color: #f5c97b;
+                    }
+                    &>div:nth-child(2) {
+                        width: @wid;
+                        height: 22px;
+                        line-height: 22px;
+                        background-color: #83b09a;
+                        color: @color1;
+                        font-size: 17px;
+                    }
+                }
+                .img-contain {
+                    display: none;
+                    img {
+                        width: 23px;
+                        height: 23px;
+                    }
+                }
+                &:hover .img-contain {
+                    display: flex;
+                    width: 100px;
+                    height: 40px;
+                    margin-top: 12px;
+                    justify-content: space-between; 
+                    flex-wrap: wrap;
+                }
+            }
+        }
+    }
+    @media screen and (max-width: 320px) {
+        .main-div2 {
+            width: 140px;
+            position: absolute;
+            top: 100px;
+            left: 50%;
+            margin-left: -70px;
+            .main-div2-div1 {
+                width: @wid;
+                flex-wrap: wrap;
+                height: 450px;
+                .main-div2-div1-div1 {
+                    width: @wid;
+                    height: 150px;
+                }
+                &:hover .img-contain {
+                    width: @wid;
+                }
+            }
+        }
+    }
+    .buchong {
+        height: 1000px;
+        width: @wid;
+    }
+}
