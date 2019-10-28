@@ -201,11 +201,18 @@ main .main-div2 .main-div2-div1 .main-div2-div1-div1:hover .img-contain {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+main .main-div2 .buchong {
+  height: 100px;
+  width: 100%;
+}
 @media screen and (max-width: 320px) {
+  main .main-div1 {
+    padding-left: 60px;
+  }
   main .main-div2 {
     width: 140px;
     position: absolute;
-    top: 100px;
+    top: 120px;
     left: 50%;
     margin-left: -70px;
   }
@@ -213,6 +220,7 @@ main .main-div2 .main-div2-div1 .main-div2-div1-div1:hover .img-contain {
     width: 100%;
     flex-wrap: wrap;
     height: 450px;
+    margin-top: 0;
   }
   main .main-div2 .main-div2-div1 .main-div2-div1-div1 {
     width: 100%;
@@ -221,8 +229,8 @@ main .main-div2 .main-div2-div1 .main-div2-div1-div1:hover .img-contain {
   main .main-div2 .main-div2-div1 .main-div2-div1-div1:hover .img-contain {
     width: 100%;
   }
-}
-main .buchong {
-  height: 1000px;
-  width: 100%;
+  main .tuo {
+    width: 100%;
+    height: 1000px;
+  }
 }
