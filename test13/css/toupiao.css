@@ -218,7 +218,7 @@ main .main-div2 .main-div2-div1 .main-div2-div1-div1:hover .img-contain {
     width: 100%;
     height: 150px;
   }
-  main .main-div2 .main-div2-div1:hover .img-contain {
+  main .main-div2 .main-div2-div1 .main-div2-div1-div1:hover .img-contain {
     width: 100%;
   }
 }
