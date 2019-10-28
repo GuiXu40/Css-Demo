@@ -145,7 +145,7 @@ main .main-div1 {
 }
 main .main-div2 {
   width: 100%;
-  height: 430px;
+  height: 1000px;
   overflow: scroll;
 }
 main .main-div2::-webkit-scrollbar {
