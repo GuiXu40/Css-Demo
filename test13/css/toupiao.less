@@ -156,18 +156,26 @@ main {
                 }
             }
         }
+        .buchong {
+            height: 100px;
+            width: @wid;
+        }
     }
     @media screen and (max-width: 320px) {
+        .main-div1 {
+            padding-left: 60px;
+        }
         .main-div2 {
             width: 140px;
             position: absolute;
-            top: 100px;
+            top: 120px;
             left: 50%;
             margin-left: -70px;
             .main-div2-div1 {
                 width: @wid;
                 flex-wrap: wrap;
                 height: 450px;
+                margin-top: 0;
                 .main-div2-div1-div1 {
                     width: @wid;
                     height: 150px;
@@ -177,9 +185,9 @@ main {
                 }
             }
         }
-    }
-    .buchong {
-        height: 1000px;
-        width: @wid;
+        .tuo {
+            width: 100%;
+            height: 1000px;
+        }
     }
 }
