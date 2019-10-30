@@ -1,0 +1,243 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+textarea,
+p,
+blockquote,
+th,
+input,
+select,
+button {
+  margin: 0;
+  padding: 0;
+}
+/* 初始化标签在所有浏览器中的margin、padding值 */
+fieldset,
+img {
+  border: 0 none;
+}
+/* 重置fieldset（表单分组）、图片的边框为0*/
+dl,
+ul,
+ol,
+menu,
+li {
+  list-style: none;
+}
+/* 重置嵌套引用的引号类型 */
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+/* 重置嵌套引用*/
+input,
+select,
+textarea,
+button {
+  vertical-align: middle;
+}
+/* 重置表单控件垂直居中*/
+button {
+  border: 0 none;
+  background-color: transparent;
+  cursor: pointer;
+}
+/* 重置表单button按钮效果 */
+html,
+body {
+  background: #ffffff;
+  font-size: 62.5%;
+  line-height: 1;
+  font-family: "黑体";
+  color: #666666;
+}
+/* 重置body 页面背景为白色 */
+th,
+td,
+input,
+select,
+textarea,
+button {
+  font-size: 12px;
+  line-height: 1;
+  font-family: "黑体";
+  color: #666666;
+}
+/* 重置页面文字属性 */
+a {
+  color: #666;
+  text-decoration: none;
+}
+/* 重置链接a标签 */
+a:active,
+a:hover {
+  text-decoration: none;
+}
+/* 重置链接a标签的鼠标滑动效果 */
+img {
+  vertical-align: top;
+}
+/* 图片在当前行内的垂直位置 */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  height: 70px;
+  background: #29bde0;
+  padding: 20px 4.687% 0 4.687%;
+  color: #ffffff;
+  font-size: 3.4rem;
+  width: 90.626%;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: #29bde0;
+}
+footer a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fbb435;
+  font-size: 4rem;
+}
+html {
+  font-size: 62.5%;
+}
+header {
+  border-bottom: 1px solid #74d4eb;
+}
+main {
+  background: #29bde0;
+  padding: 0 11.718%;
+  border-bottom: 1px solid #dddddd;
+}
+main .result {
+  position: relative;
+  height: 250px;
+  width: 310px;
+  margin: 0 auto;
+  background: url(img/photo12.png) no-repeat center;
+  background-size: 310px 205px;
+}
+main .result p {
+  position: absolute;
+  bottom: 40px;
+  left: 55px;
+  min-width: 205px;
+  text-align: center;
+  font-size: 4.8rem;
+  color: #ffffff;
+}
+main .explain-first {
+  font-size: 3.3rem;
+  padding-bottom: 60px;
+  color: #fbb435;
+}
+main .explain-second {
+  font-size: 2.6rem;
+  color: #ffffff;
+  padding-bottom: 10px;
+}
+main .explain-second p {
+  padding-bottom: 15px;
+}
+main .explain-second .ordinary,
+main .explain-second .good {
+  display: flex;
+  padding-bottom: 15px;
+  width: 100%;
+}
+main .explain-second .dl1 {
+  width: 30.208%;
+}
+main .explain-second .dl2 {
+  width: 40.625%;
+}
+main .explain-second .dl3 {
+  width: 29.167%;
+}
+.process {
+  background: #ffffff;
+  padding-bottom: 70px;
+}
+.process .first {
+  padding: 0 11.718% 18px 11.718%;
+  border-bottom: 2px solid #dddddd;
+}
+.process p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  font-size: 2.6rem;
+  padding-bottom: 15px;
+}
+.process p .game-time {
+  font-size: 3rem;
+  padding: 10px 0;
+}
+.process p .time {
+  font-size: 2rem;
+  color: #c7c7c7;
+}
+footer {
+  justify-content: space-around;
+  height: 130px;
+  background: rgba(153, 223, 240, 0.5);
+}
+footer a {
+  height: 85px;
+  width: 42.187%;
+  color: #ffffff;
+  border-radius: 10px;
+}
+footer .restart {
+  background: #f66f6f;
+}
+@media screen and (max-width: 650px) {
+  html {
+    font-size: 50%;
+  }
+  main .result p {
+    font-size: 6rem;
+  }
+}
+@media screen and (max-width: 465px) {
+  html {
+    font-size: 40%;
+  }
+  main {
+    padding: 0 2%;
+  }
+  .process .first {
+    padding: 0 2%;
+  }
+  main .result p {
+    font-size: 7.5rem;
+  }
+}

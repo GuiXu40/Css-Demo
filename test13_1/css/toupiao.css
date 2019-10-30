@@ -1,0 +1,254 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+textarea,
+p,
+blockquote,
+th,
+input,
+select,
+button {
+  margin: 0;
+  padding: 0;
+}
+/* 初始化标签在所有浏览器中的margin、padding值 */
+fieldset,
+img {
+  border: 0 none;
+}
+/* 重置fieldset（表单分组）、图片的边框为0*/
+dl,
+ul,
+ol,
+menu,
+li {
+  list-style: none;
+}
+/* 重置嵌套引用的引号类型 */
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+/* 重置嵌套引用*/
+input,
+select,
+textarea,
+button {
+  vertical-align: middle;
+}
+/* 重置表单控件垂直居中*/
+button {
+  border: 0 none;
+  background-color: transparent;
+  cursor: pointer;
+}
+/* 重置表单button按钮效果 */
+html,
+body {
+  background: #ffffff;
+  font-size: 62.5%;
+  line-height: 1;
+  font-family: "黑体";
+  color: #666666;
+}
+/* 重置body 页面背景为白色 */
+th,
+td,
+input,
+select,
+textarea,
+button {
+  font-size: 12px;
+  line-height: 1;
+  font-family: "黑体";
+  color: #666666;
+}
+/* 重置页面文字属性 */
+a {
+  color: #666;
+  text-decoration: none;
+}
+/* 重置链接a标签 */
+a:active,
+a:hover {
+  text-decoration: none;
+}
+/* 重置链接a标签的鼠标滑动效果 */
+img {
+  vertical-align: top;
+}
+/* 图片在当前行内的垂直位置 */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  height: 70px;
+  background: #29bde0;
+  padding: 20px 4.687% 0 4.687%;
+  color: #ffffff;
+  font-size: 3.4rem;
+  width: 90.626%;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: #29bde0;
+}
+footer a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fbb435;
+  font-size: 4rem;
+}
+html,
+body {
+  font-size: 62.5%;
+  background: #29bde0;
+}
+header {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
+header a {
+  width: 40px;
+  height: 40px;
+}
+nav {
+  position: fixed;
+  top: 90px;
+  width: 90.626%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  height: 80px;
+  background: #b9e9f5;
+  padding: 0 2.343% 0 7.031%;
+  font-size: 2.6rem;
+  z-index: 2;
+}
+nav .point {
+  position: absolute;
+  bottom: -13px;
+  left: 10.937%;
+  z-index: 2;
+}
+main {
+  padding-top: 240px;
+  padding-bottom: 190px;
+}
+main .small-title {
+  position: fixed;
+  top: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  padding-left: 10.937%;
+  height: 70px;
+  width: 100%;
+  font-size: 2.4rem;
+  color: #ffffff;
+  background: #29bde0;
+  z-index: 1;
+}
+main .all-option {
+  display: flex;
+  flex-wrap: wrap;
+}
+main .all-option .box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33.333%;
+}
+main .all-option .box .option {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  height: 140px;
+  width: 140px;
+  background: #f5c97b;
+  font-size: 3rem;
+  border: 4px solid #ffffff;
+}
+main .all-option .box .option .ranking {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  width: 100%;
+  background: #83b09a;
+  font-size: 2.2rem;
+  color: #ffffff;
+}
+main .all-option .box .option .photo {
+  position: absolute;
+  bottom: -50px;
+  display: none;
+  justify-content: space-between;
+  width: 140px;
+  height: 30px;
+}
+main .all-option .box .option:hover .photo {
+  display: flex;
+}
+footer {
+  height: 190px;
+  width: 100%;
+}
+footer .next-step {
+  margin: 0 13.281%;
+  height: 90px;
+  flex: 1;
+  color: #ffffff;
+}
+@media screen and (max-width: 700px) {
+  main .all-option .box {
+    width: 50%;
+  }
+  html {
+    font-size: 70%;
+  }
+}
+@media screen and (max-width: 450px) {
+  main .all-option .box {
+    width: 100%;
+  }
+  html {
+    font-size: 45%;
+  }
+}

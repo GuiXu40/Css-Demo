@@ -1,0 +1,147 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+textarea,
+p,
+blockquote,
+th,
+input,
+select,
+button {
+    margin : 0;
+    padding: 0
+}
+
+/* 初始化标签在所有浏览器中的margin、padding值 */
+fieldset,
+img {
+    border: 0 none
+}
+
+/* 重置fieldset（表单分组）、图片的边框为0*/
+dl,
+ul,
+ol,
+menu,
+li {
+    list-style: none
+}
+
+/* 重置嵌套引用的引号类型 */
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none
+}
+
+/* 重置嵌套引用*/
+input,
+select,
+textarea,
+button {
+    vertical-align: middle
+}
+
+/* 重置表单控件垂直居中*/
+button {
+    border          : 0 none;
+    background-color: transparent;
+    cursor          : pointer
+}
+
+/* 重置表单button按钮效果 */
+html,
+body {
+    background: #ffffff;
+    font-size  : 62.5%;
+    line-height: 1;
+    font-family: "黑体";
+    color      : #666
+}
+
+/* 重置body 页面背景为白色 */
+th,
+td,
+input,
+select,
+textarea,
+button {
+    font-size  : 12px;
+    line-height: 1;
+    font-family: "黑体";
+    color      : #666
+}
+
+/* 重置页面文字属性 */
+a {
+    color          : #666;
+    text-decoration: none
+}
+
+/* 重置链接a标签 */
+a:active,
+a:hover {
+    text-decoration: none
+}
+
+/* 重置链接a标签的鼠标滑动效果 */
+
+img {
+    vertical-align: top
+}
+
+/* 图片在当前行内的垂直位置 */
+
+@color-1 : #29bde0;
+@color-2 : #f0f0f0;
+@color-3 : #ffffff;
+@color-4 : #fbb435;
+
+#center() {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+}
+
+header {
+    #center;
+    justify-content: space-between;
+    height         : 70px;
+    background     : @color-1;
+    padding        : 20px 4.687% 0 4.687%;
+    color          : @color-3;
+    font-size      : 3.4rem;
+    width          : 90.626%;
+}
+
+footer {
+    position: fixed;
+    bottom  : 0;
+    #center;
+    width     : 100%;
+    background: @color-1;
+
+    a {
+        #center;
+        background: @color-4;
+        font-size : 4rem;
+    }
+}
